@@ -4,9 +4,9 @@ site:
    
 content:
   sources:
-  - url: .
-    branches: main
-    start_path: docs/user-manual
+    - url: .
+      branches: HEAD
+      start_path: docs/user-manual
 
 output:
   dir: ./build/user
