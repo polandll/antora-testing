@@ -1,0 +1,5 @@
+* Module C
+** xref:modulec1.adoc[First]
+** xref:modulec2.adoc[Second]
+** xref:modulec3.adoc[Third]
+

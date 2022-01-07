@@ -1,0 +1,26 @@
+site:
+  title: Antora Test Project
+  start_page: antora-test-project::internal.adoc
+   
+content:
+  sources:
+  - url: .
+    branches: main
+    start_path: docs/user-manual
+  - url: .
+    branches: main
+    start_path: docs/partner-manual
+  - url: .
+    branches: main
+    start_path: docs/internal-manual
+
+output:
+  dir: ./build/internal
+
+ui:
+  bundle:
+    url: https://github.com/stargate/antora-ui-stargate/releases/download/v0.5/ui-bundle.zip
+  #supplemental_files: ./supplemental-ui
+  # override the default _ dir for assets, as Jekyll will delete them
+  output_dir: assets
+

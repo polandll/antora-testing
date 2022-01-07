@@ -1,0 +1,24 @@
+{
+  "name": "test-docs",
+  "scripts": {
+    "build:user": "antora --log-level=error --stacktrace --fetch --clean playbooks-build/user-playbook.yaml",
+    "build:partner": "antora --log-level=error --stacktrace --fetch --clean playbooks-build/partner-playbook.yaml",
+    "build:internal": "antora --log-level=error --stacktrace --fetch --clean playbooks-build/internal-playbook.yaml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stargate/docs.git"
+  },
+  "dependencies": {
+    "@antora/cli": "^3.0.0",
+    "@antora/site-generator-default": "^3.0.0",
+    "@openapitools/openapi-generator-cli": "^2.4.23",
+    "mobx": "^6.3.12",
+    "openapi-generator": "^0.1.39",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "redoc": "^2.0.0-rc.59",
+    "redoc-cli": "^0.13.2",
+    "styled-components": "^5.1.1"
+  }
+}

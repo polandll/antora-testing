@@ -1,0 +1,10 @@
+name: antora-test-project
+version: 6.1
+nav:
+- modules/ROOT/inav.adoc
+- modules/moduleA/nav.adoc
+- modules/moduleB/nav.adoc
+- modules/moduleC/nav.adoc
+- modules/moduleD/nav.adoc
+- modules/moduleE/nav.adoc
+
