@@ -4,11 +4,11 @@ site:
    
 content:
   sources:
-  - url: https://github.com/polandll/antora-testing
-    branches: main
+  - url: .
+    branches: HEAD, main
     start_path: docs/user-manual
-  - url: https://github.com/polandll/antora-testing
-    branches: main
+  - url: .
+    branches: HEAD, main
     start_path: docs/partner-manual
   - url: https://github.com/polandll/antora-testing
     branches: [main, intman7.1]
