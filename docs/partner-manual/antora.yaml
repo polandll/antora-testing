@@ -1,4 +1,4 @@
-name: antora-oddman-project
+name: antora-test-project
 version: 6.1
 nav:
 - modules/ROOT/pnav.adoc
