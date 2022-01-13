@@ -4,13 +4,13 @@ site:
    
 content:
   sources:
-  - url: .
+  - url: ~/CLONES/antora-testing
     branches: HEAD
     start_path: docs/user-manual
-  - url: .
+  - url: ~/CLONES/antora-testing
     branches: HEAD
     start_path: docs/partner-manual
-  - url: .
+  - url: ~/CLONES/antora-testing
     branches: HEAD
     start_path: docs/internal-manual
 
