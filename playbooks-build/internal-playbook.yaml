@@ -4,14 +4,14 @@ site:
    
 content:
   sources:
-  - url: https://github.com/polandll/antora-testing
-    branches: [main]
+  - url: .
+    branches: main
     start_path: docs/user-manual
-  - url: https://github.com/polandll/antora-testing
-    branches: [main]
+  - url: .
+    branches: main
     start_path: docs/partner-manual
-  - url: https://github.com/polandll/antora-testing
-    branches: [main]
+  - url: .
+    branches: main
     start_path: docs/internal-manual
 
 output:
