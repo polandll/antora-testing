@@ -5,13 +5,13 @@ site:
 content:
   sources:
   - url: ~/CLONES/antora-testing
-    branches: HEAD
+    branches: [main]
     start_path: docs/user-manual
   - url: ~/CLONES/antora-testing
-    branches: HEAD
+    branches: [main]
     start_path: docs/partner-manual
   - url: ~/CLONES/antora-testing
-    branches: HEAD
+    branches: [main, intman7.1]
     start_path: docs/internal-manual
 
 output:
