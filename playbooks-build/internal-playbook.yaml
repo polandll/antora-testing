@@ -5,13 +5,13 @@ site:
 content:
   sources:
   - url: .
-    branches: main
+    branches: HEAD
     start_path: docs/user-manual
   - url: .
-    branches: main
+    branches: HEAD
     start_path: docs/partner-manual
   - url: .
-    branches: main
+    branches: HEAD
     start_path: docs/internal-manual
 
 output:
