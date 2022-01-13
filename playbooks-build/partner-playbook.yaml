@@ -4,10 +4,10 @@ site:
    
 content:
   sources:
-  - url: .
+  - url: /Users/lorinapoland/CLONES/antora-testing
     branches: main
     start_path: docs/user-manual
-  - url: .
+  - url: /Users/lorinapoland/CLONES/antora-testing
     branches: main
     start_path: docs/partner-manual
 

@@ -3,7 +3,8 @@
   "scripts": {
     "build:user": "antora --log-level=error --stacktrace --fetch --clean playbooks-build/user-playbook.yaml",
     "build:partner": "antora --log-level=error --stacktrace --fetch --clean playbooks-build/partner-playbook.yaml",
-    "build:internal": "antora --log-level=error --stacktrace --fetch --clean playbooks-build/internal-playbook.yaml"
+    "build:internal": "antora --log-level=error --stacktrace --fetch --clean playbooks-build/internal-playbook.yaml",
+    "build:xreftest": "NODE_PATH=\"$(npm -g root)\" antora --generator @antora/xref-validator --stacktrace --fetch --clean playbooks-build/internal-playbook.yaml"
   },
   "repository": {
     "type": "git",

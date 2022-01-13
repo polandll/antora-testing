@@ -3,9 +3,10 @@ site:
   start_page: antora-test-project::user.adoc
    
 content:
+  edit_url: 'https://github.com/polandll/antora-testing/blob/main/{path}'
   sources:
-    - url: .
-      branches: HEAD
+    - url: /Users/lorinapoland/CLONES/antora-testing
+      branches: main
       start_path: docs/user-manual
 
 output:
