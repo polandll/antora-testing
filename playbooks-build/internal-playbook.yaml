@@ -11,7 +11,7 @@ content:
     branches: [main]
     start_path: docs/partner-manual
   - url: https://github.com/polandll/antora-testing
-    branches: [main, intman7.1]
+    branches: [main]
     start_path: docs/internal-manual
 
 output:
