@@ -1,0 +1,4 @@
+= testing vars in readme
+:url: http://github.com/stargate/antora-testing
+
+You will find useful stuff in {url}/doc/user-manual.
