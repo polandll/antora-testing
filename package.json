@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stargate/docs.git"
+    "url": "git+https://github.com/polandll/antora-testing.git"
   },
   "dependencies": {
     "@antora/cli": "^3.0.0",
